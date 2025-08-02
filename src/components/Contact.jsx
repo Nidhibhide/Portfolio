@@ -3,21 +3,21 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <footer className=" py-32 px-6 xl:px-20">
+    <footer className=" py-32 px-6 xl:px-20 scroll-mt-32" id="contact">
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <h2 className="text-2xl font-semibold mb-4 text-[#FF3CAC] text-center">
             Contact Me
           </h2>
-          <p className="flex items-start gap-3 mb-3 text-lg">
+          <p className="flex items-start gap-3 mb-3 text-lg cursor-pointer">
             <FaMapMarkerAlt className="text-[#FF3CAC] mt-1" />
-            <span>C-35 Hotgi Road, Solapur - 413003</span>
+            <span>Solapur, Maharashtra, India</span>
           </p>
-          <p className="flex items-center gap-3 mb-3">
+          <p className="flex items-center gap-3 mb-3 cursor-pointer">
             <FaPhone className="text-[#FF3CAC]" />
             <span>+91 8766675279</span>
           </p>
-          <p className="flex items-center gap-3">
+          <p className="flex items-center gap-3 cursor-pointer">
             <FaEnvelope className="text-[#FF3CAC]" />
             <span>nidhibhide144@gmail.com</span>
           </p>
@@ -30,7 +30,7 @@ const Contact = () => {
           <ul className="space-y-2 text-gray-300 text-base flex flex-col items-center">
             <li>
               <a
-                href="/"
+                href="#home"
                 className="hover:text-[#FF3CAC] transition duration-300 block"
               >
                 Home
@@ -38,15 +38,16 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="#projects"
+                href="https://www.linkedin.com/in/nidhibhide1424/"
                 className="hover:text-[#FF3CAC] transition duration-300 block"
+                target="_blank"
               >
-                Projects
+                Linkedin
               </a>
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1GvisqLYZwoUT-NPENgwjFvx4YV-cbqhs/view?usp=sharing"
+                href="https://drive.google.com/file/d/1cFsrvempyABPberEeErJ0MmH_LdTGyj2/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#FF3CAC] transition duration-300 block"
@@ -71,7 +72,7 @@ const Contact = () => {
           <h2 className="text-2xl font-semibold mb-4 text-[#FF3CAC]">
             Let’s Connect
           </h2>
-          <p className="text-gray-300 text-base mb-4">
+          <p className="text-gray-300 text-base font-semibold mb-4 text-center">
             I’m open to freelance or full-time opportunities. Feel free to reach
             out!
           </p>

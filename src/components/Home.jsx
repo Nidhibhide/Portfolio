@@ -1,20 +1,20 @@
 import React from "react";
-
+import { codingImage } from "../images";
 const Home = () => {
   return (
-    <div className="w-full  flex  items-center justify-center pb-36 pt-52  px-16 xl:px-28 gap-8">
+    <div className="w-full  flex  items-center justify-center pb-36 pt-52  px-16 xl:px-28 gap-8 scroll-mt-24" id="home">
       {/* Text section */}
       <div className="flex-1 flex flex-col items-center  justify-center">
-        <div className="flex flex-col gap-8 max-w-xl">
+        <div className="flex flex-col gap-8 max-w-2xl">
           <p className="xl:text-5xl text-4xl font-semibold  xl:leading-tight leading-snug">
             Hey there! I’m{" "}
-            <span className="text-[#FF3CAC] font-bold">Nidhi</span>, Full Stack
+            <span className="text-[#FF3CAC] font-bold">Nidhi Bhide</span>, Full Stack
             Developer.
           </p>
 
           <div className="flex gap-8 text-sm xl:text-base">
             <a
-              href="https://drive.google.com/file/d/1GvisqLYZwoUT-NPENgwjFvx4YV-cbqhs/view?usp=sharing"
+              href="https://drive.google.com/file/d/1cFsrvempyABPberEeErJ0MmH_LdTGyj2/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,8 +39,8 @@ const Home = () => {
       {/* Image section */}
       <div className="flex-1 flex justify-center items-center">
         <img
-          className="w-full max-w-md h-auto object-contain rounded-lg"
-          src="https://4.bp.blogspot.com/-4-aCisEElb8/T0pljCigd_I/AAAAAAAAB2Q/y2ebF_90HOk/s1600/beautiful+nature+photo.jpg"
+          className="w-full max-w-lg h-auto object-contain rounded-full"
+          src={codingImage}
           alt="home"
         />
       </div>
