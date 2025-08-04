@@ -52,8 +52,8 @@ const Projects = () => {
       id="work"
       className="scroll-mt-24 py-24 px-6 max-w-7xl mx-auto flex flex-col gap-8 items-center"
     >
-      <h2 className="xl:text-5xl text-4xl font-semibold ">Projects</h2>
-      <p className="text-center text-gray-400 text-base xl:text-lg font-medium max-w-3xl mb-8">
+      <h2 className="xl:text-4xl text-3xl font-semibold ">Projects</h2>
+      <p className="text-center text-gray-400 text-sm xl:text-base font-medium max-w-3xl mb-6">
         Below are MERN stack projects styled with Tailwind CSS and secured using
         JWT & OAuth 2.0.
       </p>
@@ -79,7 +79,7 @@ const Projects = () => {
 
 // 🧩 Reusable card component
 const ProjectCard = ({ title, image, link, github, features }) => (
-  <div className="bg-[#1A1A1A] rounded-2xl xl:w-[350px] w-[300px] h-[400px]  shadow-md hover:shadow-[#FF3CAC]/50 transition-shadow duration-300 flex flex-col">
+  <div className="bg-[#1A1A1A] rounded-2xl xl:w-[320px] w-[300px] h-[350px]  shadow-md hover:shadow-[#FF3CAC]/50 transition-shadow duration-300 flex flex-col">
     <div className="overflow-hidden">
       <img
         src={image}
@@ -88,10 +88,10 @@ const ProjectCard = ({ title, image, link, github, features }) => (
       />
     </div>
     <div className="flex flex-col p-3">
-      <h3 className="xl:text-xl text-lg font-bold text-[#FF3CAC] mb-2">
+      <h3 className="xl:text-lg text-base font-bold text-[#FF3CAC] mb-1">
         {title}
       </h3>
-      <p className="xl:text-lg text-base text-gray-300 xl:h-[120px] h  mb-4">
+      <p className="xl:text-base text-sm text-gray-300  xl:h-[100px]   mb-2">
         {features}
       </p>
 
@@ -100,7 +100,7 @@ const ProjectCard = ({ title, image, link, github, features }) => (
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 bg-[#FF3CAC] hover:bg-[#FF73B9] text-black font-semibold py-2 px-4 rounded-lg"
+          className="flex items-center gap-2 bg-[#FF3CAC] hover:bg-[#FF73B9] text-black font-semibold py-2 text-sm px-4 rounded-lg"
         >
           <FaExternalLinkAlt />
           View
@@ -109,7 +109,7 @@ const ProjectCard = ({ title, image, link, github, features }) => (
           href={github}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 bg-[#FF3CAC] hover:bg-[#FF73B9] text-black font-semibold py-2 px-4 rounded-lg"
+          className="flex items-center gap-2 bg-[#FF3CAC] hover:bg-[#FF73B9] text-sm text-black font-semibold py-2 px-4 rounded-lg"
         >
           <FaGithub />
           GitHub

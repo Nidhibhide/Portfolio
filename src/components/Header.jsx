@@ -2,22 +2,22 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className=" bg-[#1A1A1A]  shadow-md   h-[85px] w-full fixed ">
+    <header className=" bg-[#1A1A1A]  shadow-md   h-[75px] w-full fixed ">
       <div className=" mx-12 py-6 flex justify-around items-center">
-        <div className="text-2xl xl:text-3xl font-bold">MyPortolio</div>
+        <div className="text-xl xl:text-2xl font-bold">MyPortolio</div>
         <nav className="flex space-x-6 ">
-          <a href="#home" className=" text-lg 		hover:text-[#FF3CAC] font-medium">
+          <a href="#home" className=" text-base 		hover:text-[#FF3CAC] font-medium">
             Home
           </a>
-          <a href="#about" className="text-lg		hover:text-[#FF3CAC] font-medium">
+          <a href="#about" className="text-base	hover:text-[#FF3CAC] font-medium">
             About
           </a>
-          <a href="#work" className="text-lg		hover:text-[#FF3CAC] font-medium">
+          <a href="#work" className="text-base		hover:text-[#FF3CAC] font-medium">
             Work
           </a>
           <a
             href="#contact"
-            className="text-lg		hover:text-[#FF3CAC] font-medium"
+            className="text-base		hover:text-[#FF3CAC] font-medium"
           >
             Contact
           </a>

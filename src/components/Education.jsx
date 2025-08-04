@@ -18,7 +18,7 @@ const Education = () => {
 
   return (
     <section className="py-24 px-4  xl:px-20 flex flex-col space-y-16 items-center">
-      <h2 className="xl:text-5xl text-4xl font-semibold text-center  ">
+      <h2 className="xl:text-4xl text-3xl font-semibold text-center  ">
         Education
       </h2>
 
@@ -26,12 +26,12 @@ const Education = () => {
         {educationData.map((edu, index) => (
           <div
             key={index}
-            className="bg-[#1A1A1A] p-8 flex-1  shadow-lg hover:shadow-[#FF3CAC]/40 transition-shadow duration-300"
+            className="bg-[#1A1A1A] p-6 flex-1  shadow-lg hover:shadow-[#FF3CAC]/40 transition-shadow duration-300"
           >
-            <p className=" font-extrabold xl:text-2xl text-xl text-yellow-500 mb-4">
+            <p className=" font-extrabold xl:text-2xl text-xl text-yellow-500 mb-3">
               {edu.duration}
             </p>
-            <h3 className="xl:text-3xl text-2xl font-medium text-[#FF3CAC] mb-2">
+            <h3 className="xl:text-2xl text-xl font-medium text-[#FF3CAC] mb-1">
               {edu.university}
             </h3>
             <p className="xl:text-2xl text-xl font-medium mb-2">{edu.degree}</p>
