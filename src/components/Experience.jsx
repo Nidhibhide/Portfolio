@@ -30,9 +30,9 @@ const experiences = [
     duration: "Jul 2024 – Dec 2024",
     location: "Remote",
     points: [
-      "Built responsive interfaces for web/mobile used by 10+ users.",
-      "Connected frontend with backend using efficient state handling.",
-      "Implemented secure JWT-based APIs and protected route access.",
+      "Designed and implemented database schemas and developed secure, scalable APIs for data handling and user authentication.",
+      "Built responsive and accessible user interfaces and integrated them with backend services for seamless functionality.",
+      "Managed application state using Redux and implemented role-based routing to ensure secure and personalized user experiences.",
     ],
   },
 ];

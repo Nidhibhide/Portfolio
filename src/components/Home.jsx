@@ -14,7 +14,7 @@ const Home = () => {
 
           <div className="flex gap-8 text-sm xl:text-base">
             <a
-              href="https://drive.google.com/file/d/1cFsrvempyABPberEeErJ0MmH_LdTGyj2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QWzD8Z98wGompSwP5mclBx6YESmrp4RY/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
