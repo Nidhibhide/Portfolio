@@ -8,9 +8,10 @@ const experiences = [
     duration: "Dec 2024 – Present",
     location: "Maharashtra, India · Remote",
     points: [
-      "Created and refactored 20+ RESTful APIs with improved validation and optimized architecture.",
-      "Mentored 3+ interns using GitHub workflows, PRs, and structured code reviews.",
-      "Debugged and tested backend services, maintaining database consistency.",
+      "Led a team of 3+ interns with task assignment, code reviews, and GitHub workflows to maintain code quality.",
+      "Refactored and optimized backend code, enhanced database efficiency, and integrated AWS S3 for reliable image storage. ",
+      "Collaborated with frontend teams to align features, resolved backend issues, and improved overall system performance.",
+      "Contributed to deployment phase using Docker and AWS, ensuring stable and scalable releases. "
     ],
   },
   {
@@ -19,9 +20,9 @@ const experiences = [
     duration: "Apr 2025 – Jun 2025",
     location: "Remote",
     points: [
-      "Built 10+ responsive pages with smooth UX for mobile and desktop.",
-      "Integrated RESTful APIs and implemented state management.",
-      "Created secure APIs with Razorpay integration and JWT-based authentication.",
+      "Delivered 10+ responsive pages ensuring smooth navigation and consistent user experience on desktop and mobile.  ",
+      "Enabled seamless data flow with integrated APIs, state management, and dynamic frontend-backend interactions.",
+      "Implemented secure subscription payments using Razorpay and structured databases to manage users and transactions efficiently.",
     ],
   },
   {
@@ -30,9 +31,9 @@ const experiences = [
     duration: "Jul 2024 – Dec 2024",
     location: "Remote",
     points: [
-      "Designed and implemented database schemas and developed secure, scalable APIs for data handling and user authentication.",
-      "Built responsive and accessible user interfaces and integrated them with backend services for seamless functionality.",
-      "Managed application state using Redux and implemented role-based routing to ensure secure and personalized user experiences.",
+      "Built responsive pages 8+ and integrated APIs for smooth data-driven interactions. ",
+      "Developed secure backend with 10+ CRUD APIs and JWT-based authentication. ",
+      "Worked as a full stack developer, contributing to end-to-end product features in a startup.  ",
     ],
   },
 ];

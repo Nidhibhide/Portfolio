@@ -21,11 +21,10 @@ const About = () => {
         <div className="flex flex-col gap-4">
           <p className="xl:text-4xl text-3xl font-semibold ">About me</p>
           <p className="xl:text-base text-sm">
-            Full Stack Developer with 1 year of experience in building web
-            applications using the MERN stack (MongoDB, Express.js, React.js,
-            Node.js). Known for being adaptable, detail-oriented, and a quick
-            learner. Strong communicator and team player, focused on delivering
-            user-focused solutions and resolving backend issues efficiently.
+            Full Stack Developer specializing in MERN Stack with 1+ year of
+            experience delivering responsive, high-quality web applications.
+            Strong problem-solving, collaboration, and leadership skills with a
+            passion for building impactful solutions
           </p>
         </div>
         <div className="flex flex-col w-full xl:space-y-2 space-y-1 text-sm xl:text-base leading-relaxed p-4  rounded-xl">
@@ -34,8 +33,8 @@ const About = () => {
             Nidhi Bhide
           </p>
           <p>
-            <span className="font-semibold text-[#FF3CAC]">Experience:</span> 1
-            Year 1 Month
+            <span className="font-semibold text-[#FF3CAC]">Experience:</span>{" "}
+            1.5 Years
           </p>
           <p>
             <span className="font-semibold text-[#FF3CAC]">Languages:</span>{" "}
@@ -55,7 +54,7 @@ const About = () => {
           </p>
           <p>
             <span className="font-semibold text-[#FF3CAC]">Other Skills:</span>{" "}
-            Docker, GitHub
+            AWS (ECS, EC2, S3), Docker, GitHub
           </p>
         </div>
       </div>

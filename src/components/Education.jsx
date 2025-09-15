@@ -6,13 +6,13 @@ const Education = () => {
       university: "Bharati Vidyapeeth",
       degree: "Bachelor of Computer Applications",
       duration: "2019 – 2022",
-      score: "Percentage: 73%",
+      score: "Percentage: 77%",
     },
     {
       university: "Savitribai Phule Pune University",
       degree: "Master of Computer Applications",
       duration: "2022 – 2024",
-      score: "Percentage: 77%",
+      score: "Percentage: 73%",
     },
   ];
 
