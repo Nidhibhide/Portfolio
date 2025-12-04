@@ -14,15 +14,15 @@ const projects = [
     link: "https://learn-code-three.vercel.app/",
     github: "https://github.com/Nidhibhide/LearnCode",
     features:
-      "Created a coding platform with 5+ language support, AI-generated questions, secure role-based access, real-time notifications, and a smooth UX.",
+      "A test management system with admin controls, user test modules, AI-driven question generation, dashboards, and real-time notifications.",
   },
   {
     title: "Budget Buddy",
     image: BudgetBuddy,
-    link: "https://budget-buddy-roan.vercel.app/",
-    github: "https://github.com/Nidhibhide/BudgetBuddy",
+    link: "https://budget-buddy-next-js.vercel.app/en",
+    github: "https://github.com/Nidhibhide/BudgetBuddy---NextJs",
     features:
-      "Designed an expense tracker with secure login, budget and expense management, multi-currency support, responsive UI, and interactive dashboards.",
+      "A budgeting app with transaction and category management, bill reminders, financial analytics, dashboards, multi-currency support, & theme support.",
   },
   {
     title: "Currency Converter",
@@ -54,7 +54,7 @@ const Projects = () => {
     >
       <h2 className="xl:text-4xl text-3xl font-semibold ">Projects</h2>
       <p className="text-center text-gray-400 text-sm xl:text-base font-medium max-w-3xl mb-6">
-        Below are MERN stack projects styled with Tailwind CSS and secured using
+        Below are MERN stack & Next.js projects styled with Tailwind CSS and secured using
         JWT & OAuth 2.0.
       </p>
 

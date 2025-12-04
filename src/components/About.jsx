@@ -21,10 +21,11 @@ const About = () => {
         <div className="flex flex-col gap-4">
           <p className="xl:text-4xl text-3xl font-semibold ">About me</p>
           <p className="xl:text-base text-sm">
-            Full Stack Developer specializing in MERN Stack with 1+ year of
-            experience delivering responsive, high-quality web applications.
-            Strong problem-solving, collaboration, and leadership skills with a
-            passion for building impactful solutions
+            Full Stack Developer with 1.5 years of experience building
+            responsive and scalable web applications. Skilled in MERN stack,
+            Next.js, TypeScript, and JavaScript, with hands-on experience in
+            backend APIs, cloud deployment, and creating user-friendly
+            interfaces.
           </p>
         </div>
         <div className="flex flex-col w-full xl:space-y-2 space-y-1 text-sm xl:text-base leading-relaxed p-4  rounded-xl">
@@ -38,11 +39,12 @@ const About = () => {
           </p>
           <p>
             <span className="font-semibold text-[#FF3CAC]">Languages:</span>{" "}
-            JavaScript, TypeScript
+            JavaScript (ES6+), TypeScript
           </p>
           <p>
             <span className="font-semibold text-[#FF3CAC]">Frontend:</span>{" "}
-            React.js, Tailwind CSS, Redux Toolkit, Zustand
+            React.js, Next.js, Tailwind CSS, Redux Toolkit, Zustand,
+            Material-UI, Bootstrap
           </p>
           <p>
             <span className="font-semibold text-[#FF3CAC]">Backend:</span>{" "}
@@ -54,7 +56,7 @@ const About = () => {
           </p>
           <p>
             <span className="font-semibold text-[#FF3CAC]">Other Skills:</span>{" "}
-            AWS (ECS, EC2, S3), Docker, GitHub
+            AWS, Docker, Git, GitHub
           </p>
         </div>
       </div>

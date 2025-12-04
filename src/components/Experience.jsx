@@ -8,10 +8,9 @@ const experiences = [
     duration: "Dec 2024 – Present",
     location: "Maharashtra, India · Remote",
     points: [
-      "Led a team of 3+ interns with task assignment, code reviews, and GitHub workflows to maintain code quality.",
-      "Refactored and optimized backend code, enhanced database efficiency, and integrated AWS S3 for reliable image storage. ",
-      "Collaborated with frontend teams to align features, resolved backend issues, and improved overall system performance.",
-      "Contributed to deployment phase using Docker and AWS, ensuring stable and scalable releases. "
+      "Led a team of 5+ interns and managed tasks, code reviews, and GitHub workflows.",
+      "Created backend APIs for teacher and admin modules, improving reliability and performance by 20%.",
+      "Used AWS S3 for file handling and contributed to debugging, code refactoring, and deployment phases.",
     ],
   },
   {
@@ -20,9 +19,8 @@ const experiences = [
     duration: "Apr 2025 – Jun 2025",
     location: "Remote",
     points: [
-      "Delivered 10+ responsive pages ensuring smooth navigation and consistent user experience on desktop and mobile.  ",
-      "Enabled seamless data flow with integrated APIs, state management, and dynamic frontend-backend interactions.",
-      "Implemented secure subscription payments using Razorpay and structured databases to manage users and transactions efficiently.",
+      "Developed backend APIs, managed frontend-backend data flow, and set up database schemas for key modules.",
+      "Integrated secure subscription with Razorpay and supported deployment processes.",
     ],
   },
   {
@@ -31,9 +29,8 @@ const experiences = [
     duration: "Jul 2024 – Dec 2024",
     location: "Remote",
     points: [
-      "Built responsive pages 8+ and integrated APIs for smooth data-driven interactions. ",
-      "Developed secure backend with 10+ CRUD APIs and JWT-based authentication. ",
-      "Worked as a full stack developer, contributing to end-to-end product features in a startup.  ",
+      "Built responsive pages and backend APIs for Faculty and Global Search modules.",
+      "Designed database schema and implemented JWT-based authentication for secure access.",
     ],
   },
 ];
