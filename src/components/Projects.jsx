@@ -14,7 +14,7 @@ const projects = [
     link: "https://learn-code-three.vercel.app/",
     github: "https://github.com/Nidhibhide/LearnCode",
     features:
-      "A test management system with admin controls, user test modules, AI-driven question generation, dashboards, and real-time notifications.",
+      "A coding assessment platform to attempt tests and track performance. Added AI-based question generation and real-time notifications.",
   },
   {
     title: "Budget Buddy",
@@ -22,7 +22,7 @@ const projects = [
     link: "https://budget-buddy-next-js.vercel.app/en",
     github: "https://github.com/Nidhibhide/BudgetBuddy---NextJs",
     features:
-      "A budgeting app with transaction and category management, bill reminders, financial analytics, dashboards, multi-currency support, & theme support.",
+      "A personal finance app to track expenses and income with multi-currency support, recurring payments, and bill reminders.",
   },
   {
     title: "Currency Converter",
@@ -30,7 +30,7 @@ const projects = [
     link: "https://currency-converter-lake-six.vercel.app/",
     github: "https://github.com/Nidhibhide/Currency-converter",
     features:
-      "A sleek, responsive currency converter for real-time global currency conversions with an intuitive interface.",
+      "A currency converter app to convert between worldwide currencies with real-time exchange rates and an easy-to-use interface.",
   },
   {
     title: "Password Generator",

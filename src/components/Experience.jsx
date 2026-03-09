@@ -8,19 +8,11 @@ const experiences = [
     duration: "Dec 2024 – Present",
     location: "Maharashtra, India · Remote",
     points: [
-      "Led a team of 5+ interns and managed tasks, code reviews, and GitHub workflows.",
-      "Created backend APIs for teacher and admin modules, improving reliability and performance by 20%.",
-      "Used AWS S3 for file handling and contributed to debugging, code refactoring, and deployment phases.",
-    ],
-  },
-  {
-    company: "StockTub (Freelancing)",
-    role: "Full Stack Developer",
-    duration: "Apr 2025 – Jun 2025",
-    location: "Remote",
-    points: [
-      "Developed backend APIs, managed frontend-backend data flow, and set up database schemas for key modules.",
-      "Integrated secure subscription with Razorpay and supported deployment processes.",
+      "Led a small team of interns, assigned development tasks, and reviewed code to ensure on-time delivery and better code quality.",
+      "Developed 25+ REST APIs for modules like Attendance Tracker, Timetable, Performance, Teacher, ensuring efficient backend operations.",
+      "Contributed to application deployment using Docker and AWS and implemented AWS S3 for profile image and file uploads.",
+      "Optimized database schemas using mapping schemas to reduce data duplication by 25% and improved data consistency.",
+      "Performed API testing, debugging, and GitHub version control to maintain code quality and reduce integration issues by 15%.",
     ],
   },
   {
@@ -29,8 +21,9 @@ const experiences = [
     duration: "Jul 2024 – Dec 2024",
     location: "Remote",
     points: [
-      "Built responsive pages and backend APIs for Faculty and Global Search modules.",
-      "Designed database schema and implemented JWT-based authentication for secure access.",
+      "Developed 10+ UI components and integrated multiple APIs to connect frontend with backend services.",
+      "Implemented OTP verification and JWT-based authentication to secure user login and protect application routes.",
+      "Assisted in Redux state management and handled cookies for session management, improving frontend data handling efficiency by ~15%.",
     ],
   },
 ];

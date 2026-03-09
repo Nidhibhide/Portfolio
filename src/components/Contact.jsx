@@ -47,7 +47,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1Jae2ECK9MF-eFWU1Spm2yL-pX5UJ0hDZ/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1DsV0S-CLh-QBwoWufjuJ_nVJNPXBvU6Y/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#FF3CAC] transition duration-300 block"

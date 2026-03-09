@@ -21,7 +21,7 @@ const About = () => {
         <div className="flex flex-col gap-4">
           <p className="xl:text-4xl text-3xl font-semibold ">About me</p>
           <p className="xl:text-base text-sm">
-            Full Stack Developer with 1.5 years of experience building
+            Full Stack Developer with 1.5+ years of experience building
             responsive and scalable web applications. Skilled in MERN stack,
             Next.js, TypeScript, and JavaScript, with hands-on experience in
             backend APIs, cloud deployment, and creating user-friendly
@@ -35,7 +35,7 @@ const About = () => {
           </p>
           <p>
             <span className="font-semibold text-[#FF3CAC]">Experience:</span>{" "}
-            1.5 Years
+            1.7 Years
           </p>
           <p>
             <span className="font-semibold text-[#FF3CAC]">Languages:</span>{" "}
