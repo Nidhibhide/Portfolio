@@ -1,11 +1,6 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import {
-  LearnCode,
-  currencyConverter,
-  passwordGenerator,
-  BudgetBuddy,
-} from "../images";
+import { LearnCode, passwordGenerator, BudgetBuddy } from "../images";
 
 const projects = [
   {
@@ -14,23 +9,15 @@ const projects = [
     link: "https://learn-code-three.vercel.app/",
     github: "https://github.com/Nidhibhide/LearnCode",
     features:
-      "A coding assessment platform to attempt tests and track performance. Added AI-based question generation and real-time notifications.",
+      "A coding assessment platform with AI-based question, bulk import, progress tracking, and an admin dashboard.",
   },
   {
     title: "Budget Buddy",
     image: BudgetBuddy,
-    link: "https://budget-buddy-next-js.vercel.app/en",
+    link: "https://budget-buddy-next-js.vercel.app/",
     github: "https://github.com/Nidhibhide/BudgetBuddy---NextJs",
     features:
-      "A personal finance app to track expenses and income with multi-currency support, recurring payments, and bill reminders.",
-  },
-  {
-    title: "Currency Converter",
-    image: currencyConverter,
-    link: "https://currency-converter-lake-six.vercel.app/",
-    github: "https://github.com/Nidhibhide/Currency-converter",
-    features:
-      "A currency converter app to convert between worldwide currencies with real-time exchange rates and an easy-to-use interface.",
+      "Personal finance app with income/expense tracking, multi-currency support, analytics dashboards, recurring bills, and Razorpay integration.",
   },
   {
     title: "Password Generator",
@@ -38,48 +25,35 @@ const projects = [
     link: "https://password-generator-xi-three-75.vercel.app/",
     github: "https://github.com/Nidhibhide/Password-generator",
     features:
-      "Generates strong passwords with length and symbol toggles. Built with React, Hooks, and styled using Tailwind CSS.",
+      "A simple tool to generate strong passwords with custom length and character options.",
   },
 ];
 
 const Projects = () => {
-  // Split the first 3 and the remaining cards
-  const firstRow = projects.slice(0, 3);
-  const remaining = projects.slice(3);
-
   return (
     <section
       id="work"
-      className="scroll-mt-24 py-24 px-6 max-w-7xl mx-auto flex flex-col gap-8 items-center"
+      className="scroll-mt-24 py-16 sm:py-24 px-4 sm:px-6 max-w-7xl mx-auto flex flex-col gap-8 items-center"
     >
-      <h2 className="xl:text-4xl text-3xl font-semibold ">Projects</h2>
-      <p className="text-center text-gray-400 text-sm xl:text-base font-medium max-w-3xl mb-6">
-        Below are MERN stack & Next.js projects styled with Tailwind CSS and secured using
-        JWT & OAuth 2.0.
+      <h2 className="xl:text-4xl text-2xl sm:text-3xl font-semibold">
+        Projects
+      </h2>
+      <p className="text-center text-gray-400 text-sm xl:text-base font-medium max-w-3xl mb-2 sm:mb-6 px-2">
+        Below are MERN stack & Next.js projects styled with Tailwind CSS and
+        secured using JWT & OAuth 2.0.
       </p>
 
-      {/* Row 1: 3 cards */}
-      <div className="grid grid-cols-3 gap-6 mb-10">
-        {firstRow.map((project, index) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full justify-items-center">
+        {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
       </div>
-
-      {/* Row 2: center remaining (like 4th card) */}
-      {remaining.length > 0 && (
-        <div className="flex justify-center">
-          {remaining.map((project, index) => (
-            <ProjectCard key={index} {...project} />
-          ))}
-        </div>
-      )}
     </section>
   );
 };
 
-// 🧩 Reusable card component
 const ProjectCard = ({ title, image, link, github, features }) => (
-  <div className="bg-[#1A1A1A] rounded-2xl xl:w-[320px] w-[300px] h-[350px]  shadow-md hover:shadow-[#FF3CAC]/50 transition-shadow duration-300 flex flex-col">
+  <div className="bg-[#1A1A1A] rounded-2xl w-full max-w-[320px] min-h-[350px] shadow-md hover:shadow-[#FF3CAC]/50 transition-shadow duration-300 flex flex-col">
     <div className="overflow-hidden">
       <img
         src={image}
@@ -87,11 +61,11 @@ const ProjectCard = ({ title, image, link, github, features }) => (
         className="w-full h-44 object-contain hover:scale-110 transition-transform duration-300"
       />
     </div>
-    <div className="flex flex-col p-3">
+    <div className="flex flex-col p-3 flex-1">
       <h3 className="xl:text-lg text-base font-bold text-[#FF3CAC] mb-1">
         {title}
       </h3>
-      <p className="xl:text-base text-sm text-gray-300  xl:h-[100px]   mb-2">
+      <p className="xl:text-base text-sm text-gray-300 mb-3 flex-1">
         {features}
       </p>
 

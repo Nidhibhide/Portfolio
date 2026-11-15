@@ -1,20 +1,24 @@
 import React from "react";
 import { codingImage } from "../images";
+
 const Home = () => {
   return (
-    <div className="w-full  flex  items-center justify-center pb-36 pt-52  px-16 xl:px-28 gap-8 scroll-mt-24" id="home">
+    <div
+      className="w-full flex flex-col-reverse lg:flex-row items-center justify-center pb-20 sm:pb-28 lg:pb-36 pt-28 sm:pt-40 lg:pt-52 px-6 sm:px-10 xl:px-28 gap-8 scroll-mt-24"
+      id="home"
+    >
       {/* Text section */}
-      <div className="flex-1 flex flex-col items-center  justify-center">
-        <div className="flex flex-col gap-8 max-w-lg">
-          <p className="xl:text-4xl text-3xl font-semibold  xl:leading-tight leading-snug">
+      <div className="flex-1 flex flex-col items-center justify-center w-full">
+        <div className="flex flex-col gap-6 sm:gap-8 max-w-lg text-center lg:text-left">
+          <p className="xl:text-4xl text-2xl sm:text-3xl font-semibold xl:leading-tight leading-snug">
             Hey there! I’m{" "}
-            <span className="text-[#FF3CAC] font-bold">Nidhi Bhide</span>, Full Stack
-            Developer.
+            <span className="text-[#FF3CAC] font-bold">Nidhi Bhide</span>, Full
+            Stack Developer.
           </p>
 
-          <div className="flex gap-8 text-sm xl:text-base">
+          <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-8 text-sm xl:text-base">
             <a
-              href="https://drive.google.com/file/d/1DsV0S-CLh-QBwoWufjuJ_nVJNPXBvU6Y/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MCLWwAGgNYIv8SBuXUedFLpq5tSYVrKU/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -37,9 +41,9 @@ const Home = () => {
       </div>
 
       {/* Image section */}
-      <div className="flex-1 flex justify-center items-center">
+      <div className="flex-1 flex justify-center items-center w-full">
         <img
-          className="w-full max-w-md h-auto object-contain rounded-full"
+          className="w-full max-w-[220px] sm:max-w-xs lg:max-w-md h-auto object-contain rounded-full"
           src={codingImage}
           alt="home"
         />

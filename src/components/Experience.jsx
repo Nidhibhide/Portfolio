@@ -3,58 +3,70 @@ import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const experiences = [
   {
+    company: "Nikqik Technologies",
+    role: "Associate Consultant",
+    duration: "June 2026 – Nov 2026",
+    location: "Remote",
+    points: [
+      "Developed features for the Docs, Canvas, and Links modules of a SaaS work management platform using Next.js.",
+      "Implemented folder management and access control across all three modules, with View/Edit permissions and inherited access.",
+      "Integrated Canvas embedding and added image support, labels, comments, and Draft/Publish workflows.",
+    ],
+  },
+  {
     company: "SMAK Tech",
-    role: "Backend Developer",
-    duration: "Dec 2024 – Present",
+    role: "Software Developer (Contract)",
+    duration: "Dec 2024 – June 2026",
     location: "Maharashtra, India · Remote",
     points: [
-      "Led a small team of interns, assigned development tasks, and reviewed code to ensure on-time delivery and better code quality.",
-      "Developed 25+ REST APIs for modules like Attendance Tracker, Timetable, Performance, Teacher, ensuring efficient backend operations.",
-      "Contributed to application deployment using Docker and AWS and implemented AWS S3 for profile image and file uploads.",
-      "Optimized database schemas using mapping schemas to reduce data duplication by 25% and improved data consistency.",
-      "Performed API testing, debugging, and GitHub version control to maintain code quality and reduce integration issues by 15%.",
+      "Developed and maintained an EdTech platform using React.js, TypeScript, and Tailwind CSS, delivering high-performance, responsive UI with RESTful API integration.",
+      "Designed and implemented key features including Assessment, Timetable, and Performance dashboards using Chart.js for data visualization.",
+      "Contributed to application deployment using GitHub, Docker, and AWS (S3, ECS), maintaining CI/CD pipelines.",
+      "Collaborated in an Agile environment with daily stand-ups and sprint planning, achieving 92–95% sprint completion. Led interns through onboarding, code reviews, and on-time delivery.",
     ],
   },
   {
     company: "SMAK Tech",
     role: "Intern Developer",
-    duration: "Jul 2024 – Dec 2024",
+    duration: "July 2024 – Dec 2024",
     location: "Remote",
     points: [
-      "Developed 10+ UI components and integrated multiple APIs to connect frontend with backend services.",
+      "Assisted in Redux state management, improving frontend data handling efficiency by 15%.",
+      "Developed and integrated RESTful APIs for Class, Student, and Syllabus modules.",
       "Implemented OTP verification and JWT-based authentication to secure user login and protect application routes.",
-      "Assisted in Redux state management and handled cookies for session management, improving frontend data handling efficiency by ~15%.",
     ],
   },
 ];
 
 const Experience = () => {
   return (
-    <section className="py-24 px-8  xl:px-20   flex flex-col space-y-16 items-center">
-      <h2 className="xl:text-4xl text-3xl font-semibold">Experience</h2>
-      <div className=" space-y-12 w-full max-w-5xl">
+    <section className="py-16 sm:py-24 px-4 sm:px-8 xl:px-20 flex flex-col space-y-10 sm:space-y-16 items-center">
+      <h2 className="xl:text-4xl text-2xl sm:text-3xl font-semibold">
+        Experience
+      </h2>
+      <div className="space-y-8 sm:space-y-12 w-full max-w-5xl">
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="bg-[#1A1A1A] p-6  rounded-2xl shadow hover:shadow-[#FF3CAC]/50 transition-shadow duration-300"
+            className="bg-[#1A1A1A] p-4 sm:p-6 rounded-2xl shadow hover:shadow-[#FF3CAC]/50 transition-shadow duration-300"
           >
-            <div className="flex  flex-row justify-between items-center mb-4">
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mb-4">
               <div>
                 <h3 className="xl:text-xl text-lg font-bold text-[#FF3CAC]">
                   {exp.company}
                 </h3>
                 <p className="xl:text-sm text-xs text-gray-300">{exp.role}</p>
               </div>
-              <div className="xl:text-sm text-xs text-gray-400 flex items-center gap-3 flex-wrap">
-                <FaCalendarAlt className="text-[#FF3CAC]" />
+              <div className="xl:text-sm text-xs text-gray-400 flex items-center gap-2 sm:gap-3 flex-wrap">
+                <FaCalendarAlt className="text-[#FF3CAC] shrink-0" />
                 <span>{exp.duration}</span>
                 <span className="mx-1">|</span>
-                <FaMapMarkerAlt className="text-[#FF3CAC]" />
+                <FaMapMarkerAlt className="text-[#FF3CAC] shrink-0" />
                 <span>{exp.location}</span>
               </div>
             </div>
 
-            <ul className="list-disc list-inside text-gray-300 space-y-0 pl-2 xl:text-base text-sm">
+            <ul className="list-disc list-inside text-gray-300 space-y-1 pl-1 sm:pl-2 xl:text-base text-sm">
               {exp.points.map((point, idx) => (
                 <li key={idx}>{point}</li>
               ))}

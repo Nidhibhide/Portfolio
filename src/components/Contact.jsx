@@ -3,15 +3,15 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <footer className=" py-32 px-6 xl:px-20 scroll-mt-32" id="contact">
-      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <footer className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 xl:px-20 scroll-mt-32" id="contact">
+      <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10">
         <div className="flex flex-col items-center">
           <h2 className="text-xl font-semibold mb-4 text-[#FF3CAC] text-center">
             Contact Me
           </h2>
           <p className="flex items-start gap-3 mb-1 text-base cursor-pointer">
             <FaMapMarkerAlt className="text-[#FF3CAC] mt-1" />
-            <span>Solapur, Maharashtra, India</span>
+            <span>Pune, MH, India</span>
           </p>
           <p className="flex items-center gap-3 mb-1 cursor-pointer">
             <FaPhone className="text-[#FF3CAC]" />
@@ -47,7 +47,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1DsV0S-CLh-QBwoWufjuJ_nVJNPXBvU6Y/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1MCLWwAGgNYIv8SBuXUedFLpq5tSYVrKU/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#FF3CAC] transition duration-300 block"
